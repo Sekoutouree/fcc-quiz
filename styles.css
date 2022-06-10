@@ -44,6 +44,11 @@ h2 {
   border-bottom: 4px solid #dfdfe2;
 }
 
+p::before {
+	content: "Question #"
+}
+
+/* pattern to visually hide text for only screen readers to read */
 .sr-only  {
 	position: absolute;
 width: 1px;
